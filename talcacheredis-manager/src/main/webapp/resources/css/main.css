@@ -1,0 +1,284 @@
+/*
+ *  Copyright (c) 1995-2018,  The Data Management Group Ltd   All Rights Reserved.
+ *  *  PROPRIETARY AND COPYRIGHT NOTICE.
+ *
+ *    This software product contains information which is proprietary to
+ *    and considered a trade secret The Data management Group Ltd .
+ *    It is expressly agreed that it shall not be reproduced in whole or part,
+ *    disclosed, divulged or otherwise made available to any third party directly
+ *    or indirectly.  Reproduction of this product for any purpose is prohibited
+ *    without written authorisation from the The Data Management Group Ltd
+ *    All Rights Reserved.
+ *
+ *    E-Mail andyj@datam.co.uk
+ *    URL : www.datam.co.uk
+ *
+ *
+ */
+@charset "utf-8";
+
+body {
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    font-family: 'century_gothicregular';
+    font-size: 80%;
+    font-weight: normal;
+    background: #dbdbdb;
+}
+
+.outer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: 'century_gothicregular';
+    src: url('century_gothic-webfont.eot');
+    src: url('century_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('century_gothic-webfont.woff') format('woff'),
+    url('century_gothic-webfont.ttf') format('truetype'),
+    url('century_gothic-webfont.svg#century_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'century_gothicbold';
+    src: url('century_gothic_bold-webfont.eot');
+    src: url('century_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('century_gothic_bold-webfont.woff') format('woff'),
+    url('century_gothic_bold-webfont.ttf') format('truetype'),
+    url('century_gothic_bold-webfont.svg#century_gothicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+button {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+a, img a, img, a img {
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+label {
+    text-transform: capitalize;
+    float: left;
+    margin-right: 10px;
+}
+
+input {
+    float: left;
+    margin-right: 10px;
+}
+
+table td {
+    padding: 0 10px;
+}
+
+table th {
+    padding: 5px;
+}
+
+.formTable td {
+    padding: 10px;
+}
+
+.dataDiv {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 262px;
+    overflow: auto;
+    width: 75%;
+}
+
+.dataTable td {
+    padding: 0 3px;
+}
+
+/* .widthCode {width:70px;}
+.widthName {width:300px;}
+.widthBtn {width:65px;}
+
+.widthCode1 {width:67px;}
+.widthName1 {width:332px;}
+.widthBtn1 {width:60px;} */
+
+.widthCode {
+    width: 71px;
+}
+
+.widthName {
+    width: 300px;
+}
+
+.widthBtn {
+    width: 65px;
+}
+
+.widthCode1 {
+    width: 61px;
+}
+
+.widthName1 {
+    width: 327px;
+}
+
+.widthBtn1 {
+    width: 73px;
+}
+
+.widthNAme {
+    width: 400px;
+}
+
+.widthStatus {
+    width: 88px;
+}
+
+.widthStatus1 {
+    width: 75px;
+}
+
+.txtAlignC {
+    text-align: center;
+}
+
+.clear {
+    display: block;
+    float: none;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+    line-height: 1px;
+    width: 100%;
+    height: 1px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-height: 640px;
+    padding: 0 10px;
+}
+
+header {
+    padding: 5px;
+    background: #779bc0;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#content {
+    background-color: #fff;
+    min-height: 400px;
+    padding: 20px;
+}
+
+#content h2 {
+    display: block;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0 15px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.lables100P {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 30px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.inputDiv {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+li a {
+    cursor: pointer;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #03F;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.subHotelDiv {
+    padding-left: 20px;
+    width: 97%;
+    border: 1px solid #b5b5b5;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorMzg {
+    color: red;
+}

@@ -1,0 +1,13 @@
+${AnsiColor.BRIGHT_GREEN}
+============================================== ==============================================
+╦╗╔═╗╦  ╔═╗╔═╗╔═╗╦ ╦╔═╗    ╦═╗╔═╗╔╦╗╦╔═╗   ╔═╗╔═╗╦
+ ║ ╠═╣║  ║  ╠═╣║  ╠═╣║╣     ╠╦╝║╣  ║║║╚═╗───╠═╣╠═╝║
+ ╩ ╩ ╩╩═╝╚═╝╩ ╩╚═╝╩ ╩╚═╝────╩╚═╚═╝═╩╝╩╚═╝   ╩ ╩╩  ╩
+Application Version : ${application.version}
+Application Title : ${application.title}
+Spring Boot Version : ${spring-boot.version}
+Start Date :2018-08-02
+Last Updated :2018-08-02
+Develop By : Asanka,Mahendra,Thilan,Athula @ DMG Sri Lanka
+============================================== ==============================================
+${AnsiColor.BRIGHT_BLACK}

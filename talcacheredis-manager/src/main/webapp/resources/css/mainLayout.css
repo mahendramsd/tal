@@ -1,0 +1,117 @@
+/*
+ *  Copyright (c) 1995-2018,  The Data Management Group Ltd   All Rights Reserved.
+ *  *  PROPRIETARY AND COPYRIGHT NOTICE.
+ *
+ *    This software product contains information which is proprietary to
+ *    and considered a trade secret The Data management Group Ltd .
+ *    It is expressly agreed that it shall not be reproduced in whole or part,
+ *    disclosed, divulged or otherwise made available to any third party directly
+ *    or indirectly.  Reproduction of this product for any purpose is prohibited
+ *    without written authorisation from the The Data Management Group Ltd
+ *    All Rights Reserved.
+ *
+ *    E-Mail andyj@datam.co.uk
+ *    URL : www.datam.co.uk
+ *
+ *
+ */
+.dvLoading-class {
+    background: url(../images/Preloader_3.gif) no-repeat center center;
+    display: block;
+    height: 320px;
+    width: 480px;
+    position: fixed;
+    z-index: 1000000;
+    left: 33%;
+    top: 35%;
+    margin: -25px 0 0 -25px;
+}
+
+.dvLoadingOverlay {
+    background: #fff;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+    position: fixed;
+    display: block;
+    top: 0;
+}
+
+.header {
+    background-color: #751717;
+    color: #fff;
+    font-family: "bgMed", arial, helvetica, sans-serif;
+    font-size: 0.6em;
+    /* height: 9%; */
+    padding-top: 10px;
+    position: fixed;
+    text-transform: uppercase;
+    top: 0;
+    left: 15%;
+    width: 100%;
+    z-index: 10
+}
+
+.footer {
+    background-color: #272727;
+    bottom: 0;
+    color: #fff;
+    font-family: "bgMed", arial, helvetica, sans-serif;
+    font-size: 0.6em;
+    padding-top: 15px;
+    position: fixed !important;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 15;
+}
+
+.menu {
+    background-color: #5D92BA;
+    text-align: center;
+    overflow: auto;
+    float: left;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    height: 90%;
+
+}
+
+.content {
+    height: 100%;
+    margin-top: 6.8999%;
+    min-height: 38px;
+    z-index: 20;
+    width: 100%
+
+}
+
+footer {
+    bottom: 0;
+    position: absolute !important;
+    z-index: 999 !important;
+}
+
+.sidebar {
+    height: 100%;
+    left: 0;
+    position: fixed !important;
+    top: 0;
+}
+
+.containerDiv {
+    margin-left: 16%;
+    padding: 0 0 70px 38px !important;
+}
+
+.textAreaDiv {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.textAreaFullWidth {
+    width: 100%;
+    float: left;
+}
